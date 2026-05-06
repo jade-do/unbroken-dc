@@ -173,7 +173,7 @@ function App() {
           <div className="hero-overlay" aria-hidden="true" />
 
           <div className="container hero-content">
-            <span className="eyebrow-pill">Los Angeles Premiere</span>
+            <span className="eyebrow-pill">Capitol Hill Premiere</span>
 
             <img
               className="hero-title-image"
@@ -186,7 +186,8 @@ function App() {
             </p>
 
             <p className="hero-copy">
-              What happens when a foreign power reaches into Washington D.C, and
+              What happens when a foreign power reaches into Washington, D.C.,
+              and
               the only defense is a stage? This emotionally powerful film
               follows young artists who set out to preserve their culture, only
               to find themselves at the center of a battle over truth, faith,
@@ -290,7 +291,8 @@ function App() {
 
               <p className="testimonial-intro">
                 Voices from critics, advocates, and scholars who saw the film
-                during the U.S. premiere in New York City.
+                as it entered the Washington conversation on faith, freedom,
+                and cultural power.
               </p>
             </div>
 
@@ -510,7 +512,7 @@ function App() {
             <ul>
               <li>June 17, 2026</li>
               <li>6PM Red Carpet · 7PM Screening</li>
-              <li>Rayburn House Office Building, Washington D.C.</li>
+              <li>Rayburn House Office Building, Washington, D.C.</li>
               <li>
                 <a href="#rsvp">RSVP Now →</a>
               </li>

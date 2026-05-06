@@ -1,13 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --surface-dark: #14031f;
-  --surface-soft: #f8f3ff;
-  --ink: #1d0b41;
-  --accent: #a24dff;
-  --gold: #f3bd00;
+  --surface-dark: #0b1524;
+  --surface-dark-2: #13253d;
+  --surface-soft: #f6f1e8;
+  --surface-paper: #fcfaf5;
+  --ink: #122238;
+  --ink-soft: #4a5e79;
+  --accent: #7c2331;
+  --accent-soft: #b46d77;
+  --gold: #c4a15a;
+  --gold-bright: #dec07d;
+  --line: #d8ccb3;
   --font-body: 'Manrope', sans-serif;
-  --font-heading: 'Outfit', sans-serif;
+  --font-heading: 'Cormorant Garamond', serif;
 
   color: var(--ink);
   background: var(--surface-soft);
@@ -27,7 +33,9 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background: var(--surface-soft);
+  background:
+    radial-gradient(circle at top, rgba(196, 161, 90, 0.1), transparent 32%),
+    linear-gradient(180deg, #fbf8f2, var(--surface-soft));
 }
 
 body,
@@ -40,6 +48,10 @@ textarea {
 
 img {
   max-width: 100%;
+}
+
+::selection {
+  background: rgba(124, 35, 49, 0.18);
 }
 
 a,
@@ -58,7 +70,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid rgba(162, 77, 255, 0.32);
+  outline: 3px solid rgba(124, 35, 49, 0.24);
   outline-offset: 3px;
 }
 
