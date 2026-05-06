@@ -10,8 +10,8 @@ const assets = {
   logo:
     'https://storage.readdy-site.link/project_files/dbd02c41-5493-4ff5-9f17-c4c8f4e83576/e88dc1d5-6509-4ce0-bcff-2c24186d68df_UNBROKEN-Logo.png?v=27470a4871b1c50dd5460f397ee1b580',
   trailerThumb: 'https://img.youtube.com/vi/RdIObq2127M/maxresdefault.jpg',
-  theatre:
-    'https://public.readdy.ai/ai/img_res/821a0d900703e1267b1aa02814afb50c.jpg',
+  washingtonMonument:
+    'https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Washington%20Monument%20and%20memorial%20reflecting%20pool.jpg',
 }
 
 const awards = [
@@ -170,10 +170,12 @@ function App() {
       <main id="top">
         <section className="hero-section">
           <div className="hero-backdrop" aria-hidden="true" />
-          <div className="hero-overlay" aria-hidden="true" />
 
           <div className="container hero-content">
-            <span className="eyebrow-pill">Capitol Hill Premiere</span>
+            <div className="hero-intro">
+              <p className="hero-location">Washington, District of Columbia</p>
+              <span className="eyebrow-pill">Capitol Hill Premiere</span>
+            </div>
 
             <img
               className="hero-title-image"
@@ -187,8 +189,7 @@ function App() {
 
             <p className="hero-copy">
               What happens when a foreign power reaches into Washington, D.C.,
-              and
-              the only defense is a stage? This emotionally powerful film
+              and the only defense is a stage? This emotionally powerful film
               follows young artists who set out to preserve their culture, only
               to find themselves at the center of a battle over truth, faith,
               and freedom.
@@ -234,7 +235,6 @@ function App() {
             >
               <img src={assets.trailerThumb} alt="Unbroken trailer thumbnail" />
               <div className="trailer-card-overlay" aria-hidden="true">
-                <span className="section-eyebrow">Official Trailer</span>
                 <span className="play-chip">▶</span>
                 <span className="trailer-cta">Play Trailer</span>
                 <span className="trailer-duration">2:47</span>
@@ -245,8 +245,10 @@ function App() {
 
         <section id="reviews" className="reviews-section">
           <div className="container">
-            <p className="section-eyebrow purple">Reviews and Reactions</p>
-            <h2 className="section-title">( What Critics Are Saying )</h2>
+            <div className="reviews-heading">
+              <p className="section-eyebrow purple">Reviews and Reactions</p>
+              <h2 className="section-title reviews-title">( What Critics Are Saying )</h2>
+            </div>
 
             <div className="review-grid">
               {reviews.map((review) => (
@@ -320,7 +322,10 @@ function App() {
 
         <section id="rsvp" className="rsvp-section">
           <div className="container rsvp-layout">
-            <aside className="rsvp-promo" style={{ backgroundImage: `url(${assets.theatre})` }}>
+            <aside
+              className="rsvp-promo"
+              style={{ backgroundImage: `url(${assets.washingtonMonument})` }}
+            >
               <div className="rsvp-promo-overlay" aria-hidden="true" />
               <div className="rsvp-promo-copy">
                 <p className="section-eyebrow gold">One Night Only</p>

@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --surface-dark: #0b1524;
-  --surface-dark-2: #13253d;
-  --surface-soft: #f6f1e8;
-  --surface-paper: #fcfaf5;
-  --ink: #122238;
-  --ink-soft: #4a5e79;
-  --accent: #7c2331;
-  --accent-soft: #b46d77;
-  --gold: #c4a15a;
-  --gold-bright: #dec07d;
-  --line: #d8ccb3;
+  --surface-dark: #13151e;
+  --surface-dark-2: #20263a;
+  --surface-soft: #eff3fb;
+  --surface-paper: #f8faff;
+  --ink: #1b2340;
+  --ink-soft: #66718f;
+  --accent: #6b5cff;
+  --accent-soft: #91a1ff;
+  --gold: #4b6ea8;
+  --gold-bright: #7493d2;
+  --line: #d7deef;
   --font-body: 'Manrope', sans-serif;
   --font-heading: 'Cormorant Garamond', serif;
 
@@ -34,8 +34,8 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at top, rgba(196, 161, 90, 0.1), transparent 32%),
-    linear-gradient(180deg, #fbf8f2, var(--surface-soft));
+    radial-gradient(circle at top, rgba(107, 92, 255, 0.12), transparent 32%),
+    linear-gradient(180deg, #f9fbff, var(--surface-soft));
 }
 
 body,
@@ -51,7 +51,7 @@ img {
 }
 
 ::selection {
-  background: rgba(124, 35, 49, 0.18);
+  background: rgba(107, 92, 255, 0.2);
 }
 
 a,
@@ -70,7 +70,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid rgba(124, 35, 49, 0.24);
+  outline: 3px solid rgba(107, 92, 255, 0.24);
   outline-offset: 3px;
 }
 
