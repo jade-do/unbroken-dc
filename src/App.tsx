@@ -1,4 +1,8 @@
 import { useState } from 'react'
+import dcAttractionImage from './assets/dc_attraction_1.jpg'
+import dcAttractionImageTwo from './assets/dc_attraction_2.jpg'
+import redCarpetImageOne from './assets/unbroken_red_carpet_1.jpg'
+import redCarpetImageTwo from './assets/unbroken_red_carpet_2.jpg'
 import './App.css'
 
 const siteLinks = {
@@ -202,7 +206,7 @@ function App() {
             </div>
 
             <div className="hero-actions">
-              <a href="#rsvp" className="button button-primary">
+              <a href="#rsvp" className="button button-primary hero-button-primary">
                 Reserve Your Seat
               </a>
               <a
@@ -244,6 +248,11 @@ function App() {
         </section>
 
         <section id="reviews" className="reviews-section">
+          <div
+            className="reviews-backdrop"
+            style={{ backgroundImage: `url(${dcAttractionImage})` }}
+            aria-hidden="true"
+          />
           <div className="container">
             <div className="reviews-heading">
               <p className="section-eyebrow purple">Reviews and Reactions</p>
@@ -321,11 +330,23 @@ function App() {
         </section>
 
         <section id="rsvp" className="rsvp-section">
+          <div
+            className="rsvp-backdrop"
+            style={{ backgroundImage: `url(${dcAttractionImageTwo})` }}
+            aria-hidden="true"
+          />
           <div className="container rsvp-layout">
-            <aside
-              className="rsvp-promo"
-              style={{ backgroundImage: `url(${assets.washingtonMonument})` }}
-            >
+            <aside className="rsvp-promo">
+              <div className="rsvp-promo-image-stack" aria-hidden="true">
+                <div
+                  className="rsvp-promo-image rsvp-promo-image-top"
+                  style={{ backgroundImage: `url(${redCarpetImageOne})` }}
+                />
+                <div
+                  className="rsvp-promo-image rsvp-promo-image-bottom"
+                  style={{ backgroundImage: `url(${redCarpetImageTwo})` }}
+                />
+              </div>
               <div className="rsvp-promo-overlay" aria-hidden="true" />
               <div className="rsvp-promo-copy">
                 <p className="section-eyebrow gold">One Night Only</p>
@@ -407,6 +428,11 @@ function App() {
         </section>
 
         <section id="event" className="event-section">
+          <div
+            className="event-backdrop"
+            style={{ backgroundImage: `url(${assets.washingtonMonument})` }}
+            aria-hidden="true"
+          />
           <div className="container">
             <div className="event-intro">
               <div>
