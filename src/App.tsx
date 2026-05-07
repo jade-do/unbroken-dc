@@ -2,6 +2,7 @@ import { useState } from 'react'
 import dcAttractionImage from './assets/dc_attraction_6.jpg'
 import dcAttractionImageTwo from './assets/dc_attraction_7.jpg'
 import dcAttractionImageThree from './assets/dc_attraction_8.jpg'
+import capitolHillIllustration from './assets/dc_capitol_hill_logo_v3.svg'
 
 import redCarpetImageOne from './assets/unbroken_red_carpet_1.jpg'
 import redCarpetImageTwo from './assets/unbroken_red_carpet_2.jpg'
@@ -518,12 +519,30 @@ function App() {
       <footer className="site-footer">
         <div className="container footer-grid">
           <div className="footer-brand">
-            <img src={assets.logo} alt="Unbroken" />
+            <img className="footer-wordmark" src={assets.logo} alt="Unbroken" />
             <p>The untold story of Shen Yun. One night. One theatre. One truth.</p>
+            {/* <img
+              className="footer-capitol"
+              src={capitolHillIllustration}
+              alt="Black and white illustration of Capitol Hill"
+            /> */}
           </div>
 
           <div>
-            <p className="footer-heading">Navigate</p>
+            <p className="footer-heading">Event</p>
+            <ul>
+              <li>June 17, 2026</li>
+              <li>6PM Red Carpet · 7PM Screening</li>
+              <li>Rayburn House Office Building, Washington, D.C.</li>
+              <li>
+                <a href="#rsvp">RSVP Now →</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div className="footer-capitol-column">
+            {/* <p className="footer-heading">Navigate</p>
             <ul>
               <li>
                 <a href="#trailer">Watch Trailer</a>
@@ -537,19 +556,12 @@ function App() {
               <li>
                 <a href="#event">Event Details</a>
               </li>
-            </ul>
-          </div>
-
-          <div>
-            <p className="footer-heading">Event</p>
-            <ul>
-              <li>June 17, 2026</li>
-              <li>6PM Red Carpet · 7PM Screening</li>
-              <li>Rayburn House Office Building, Washington, D.C.</li>
-              <li>
-                <a href="#rsvp">RSVP Now →</a>
-              </li>
-            </ul>
+            </ul> */}
+            <img
+              className="footer-capitol"
+              src={capitolHillIllustration}
+              alt="Black and white illustration of Capitol Hill"
+            />
           </div>
         </div>
 

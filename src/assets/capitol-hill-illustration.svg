@@ -1,0 +1,65 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 760 360"
+  fill="none"
+>
+  <path
+    d="M78 316H682"
+    stroke="#F2F4F7"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+  <path
+    d="M166 316V214M216 316V214M266 316V214M494 316V214M544 316V214M594 316V214"
+    stroke="#F2F4F7"
+    stroke-width="10"
+    stroke-linecap="round"
+  />
+  <path
+    d="M142 214H618"
+    stroke="#F2F4F7"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+  <path
+    d="M126 214L380 142L634 214"
+    stroke="#F2F4F7"
+    stroke-width="8"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M310 316V188M344 316V166M380 316V144M416 316V166M450 316V188"
+    stroke="#F2F4F7"
+    stroke-width="10"
+    stroke-linecap="round"
+  />
+  <path
+    d="M286 188H474"
+    stroke="#F2F4F7"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+  <path
+    d="M322 166H438"
+    stroke="#F2F4F7"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+  <path
+    d="M348 144C348 126.327 362.327 112 380 112C397.673 112 412 126.327 412 144"
+    stroke="#F2F4F7"
+    stroke-width="8"
+  />
+  <path
+    d="M360 112V92C360 80.954 368.954 72 380 72C391.046 72 400 80.954 400 92V112"
+    stroke="#F2F4F7"
+    stroke-width="8"
+  />
+  <path
+    d="M380 72V34"
+    stroke="#F2F4F7"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+  <circle cx="380" cy="26" r="10" fill="#F2F4F7" />
+</svg>
