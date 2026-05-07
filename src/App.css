@@ -558,7 +558,7 @@
 .testimonials-section {
   padding: 96px 0 110px;
   background:
-    radial-gradient(circle at top right, rgba(107, 92, 255, 0.2), transparent 26%),
+    radial-gradient(circle at top right, rgba(107, 92, 255, 0.22), transparent 26%),
     linear-gradient(180deg, #1d2132, #2a3150);
 }
 

@@ -1,6 +1,8 @@
 import { useState } from 'react'
-import dcAttractionImage from './assets/dc_attraction_1.jpg'
-import dcAttractionImageTwo from './assets/dc_attraction_2.jpg'
+import dcAttractionImage from './assets/dc_attraction_6.jpg'
+import dcAttractionImageTwo from './assets/dc_attraction_7.jpg'
+import dcAttractionImageThree from './assets/dc_attraction_8.jpg'
+
 import redCarpetImageOne from './assets/unbroken_red_carpet_1.jpg'
 import redCarpetImageTwo from './assets/unbroken_red_carpet_2.jpg'
 import './App.css'
@@ -430,7 +432,7 @@ function App() {
         <section id="event" className="event-section">
           <div
             className="event-backdrop"
-            style={{ backgroundImage: `url(${assets.washingtonMonument})` }}
+            style={{ backgroundImage: `url(${dcAttractionImageThree})` }}
             aria-hidden="true"
           />
           <div className="container">
